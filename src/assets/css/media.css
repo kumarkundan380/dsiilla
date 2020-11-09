@@ -1,0 +1,273 @@
+@media screen and (max-height: 450px) {
+    /* .sidenav {
+        padding-top: 15px;
+    } */
+    .sidenav a {
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 992px){
+    .event_wrapper
+    {
+        height: auto !important;
+    }
+.create_form_all .nav-tabs li a
+{
+    padding: 5px 8px;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+
+}
+.all_seekers .each_seeker img
+{
+    width: 70px;
+}
+.all_seekers .each_seeker .seeker_bulb_overlay img
+{
+        width: 25px;
+        margin-top: 16px;
+
+    }
+
+.img_title_wrapper h1
+    {
+        font-size: 14px;
+    }
+.section_share
+{
+    font-size: 10px;
+}
+}
+@media screen and (min-width:1026px) {
+	.social_medias ul li {
+	  margin: 0 12px;
+  }
+}
+@media screen and (min-width:768px){
+	.team_filter {
+		position: absolute;
+    top: 0;
+    right: 0;
+	}
+  .theme_default_model .modal-dialog {
+    max-width: 600px;
+  }
+}
+/* @media screen and (min-width:1024px) {
+  .side_menu_opener {
+      display: none;
+  }
+  .hero-inner-content {
+      display: none;
+  }
+  .logo-desktop {
+      display: block;
+  }
+  .logo-responsive {
+      display: none;
+  }
+  .team_main .team_card_all
+  {
+    min-height: 295px;
+  }
+  .theme_header .navbar-nav {
+    padding-left: 0px;
+  }
+  .hero_section
+  {
+    height: 567px;
+  }
+} */
+
+@media (max-width:1144px) {
+    .nav-item {
+        font-size: 11px;
+        padding: 4px 0;
+    }
+    .social_medias ul li {
+        font-size: 13px;
+    }
+    .social_medias h6 {
+        font-size: 13px;
+    }
+    .theme_header .primary-theme {
+        padding: 3px 10px;
+    }
+    .theme_header .navbar-nav {
+        padding-left: 3px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .login-box form {
+        padding-right: 0px;
+    }
+    .login-box {
+        padding-right: 10px;
+    }
+    .team_main .team_card_all
+    {
+    	    min-height: 335px;
+    }
+    /* .profile-wisdom-wall, .profile_reso, .user_profile
+    {
+        /*max-height: 500px;*/
+   /* } */
+    .brand_logo {
+      top: 14px;
+    }
+}
+
+@media (max-width:1023px) {
+    .theme_header .navbar-collapse {
+        display: none !important;
+    }
+    .theme_header .form-inline {
+        display: none;
+    }
+    .theme_header .social_medias {
+        display: none;
+    }
+    .brand_logo {
+        top: 20px;
+        max-width: 118px !important;
+        position: absolute;
+        right: 0;
+        transform: none;
+        left: 0;
+        margin: auto;
+    }
+    .brand_logo {
+        top: 22px;
+        max-width: 120px !important;
+    }
+    .theme_footer nav {
+        display: block;
+    }
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-responsive {
+        display: inline-block;
+    }
+    .brand_logo
+    {
+        text-align: center;
+        top: 10px;
+    }
+    .inner_page_heading
+    {
+    	min-height: 75vh;
+    }
+    .inner_page_heading .hero-inner-content
+    {
+    	top: 65% ;
+    }
+    .hero-inner-content
+    {
+    	    top: 50%;
+    }
+    .inner_page_heading .page_name h1
+    {
+    	font-size: 30px;
+    }
+    .inner_page_heading .page_name
+    {
+    	    top: 95px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .copyright {
+        float: none;
+        display: block;
+        text-align: left !important;
+    }
+    .resonance_slider .owl-nav .owl-prev {
+        left: -10%;
+    }
+    .resonance_slider .owl-nav .owl-next {
+        right: -10%;
+    }
+    .title_text_with_arrow::before {
+        width: 35px;
+        left: -40px;
+    }
+    .title_text_with_arrow::after {
+        width: 35px;
+        right: -40px;
+    }
+    .some_about_user .each_about b{
+    font-size: 13px;
+    }
+.some_about_user .each_about span{
+  font-size: 12px;
+}
+.profile_actions a
+{
+    margin: 3px;
+    font-size: 15px;
+    padding: 5px 4px;
+}
+.resonance_box .resonance_slider .resonance_slider_item .resonance_text_overlay
+{
+    padding: 8px 12px;
+}
+.resonance_box .resonance_slider .resonance_slider_item .resonance_text_overlay h4,.resonance_box .resonance_slider .resonance_slider_item .resonance_text_overlay-letter h4
+{
+        font-size: 15px;
+    margin: 0;
+}
+.resonance_box .resonance_slider .resonance_slider_item .resonance_text_overlay-letter p
+{
+        font-size: 12px;
+}
+
+.save_profile
+{
+    position: static;
+}
+.save_profile.siila_logo
+{
+    float: left;
+}
+.save_profile.real_save
+{
+    float: right;
+}
+.user_profile .user_dp img
+{
+        margin-left: 25px;
+        width: 100px;
+}
+.user_profile .user_data h5
+{
+    font-size: 16px;
+}
+}
+@media screen and (max-width:991px) {
+	    .team_main .team_card_all {
+    min-height: auto;
+}
+.team_main .team_card_all img {
+    width: 90px;
+}
+.team_main .team_card_all span
+{
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width:374px) {
+    .theme-padding-50 {
+        padding: 20px;
+    }
+    .title_text_with_arrow
+    {
+    	    font-size: 16px;
+    }
+}

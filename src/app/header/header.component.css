@@ -1,0 +1,91 @@
+.theme_header {
+  padding: 18px !important;
+  background-color: #fff;
+  box-shadow: 0px 5px 50px -19px #000000a1;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: margin-left .5s;
+  z-index: 20;
+}
+
+.brand_logo {
+  position: absolute;
+  bottom: -54px;
+  left: 50%;
+  top: 12px;
+  margin: auto;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+}
+
+.logo-desktop {
+  width: 90%;
+}
+
+.side_menu_opener {
+  font-size: 25px;
+  color: #a8563a;
+}
+
+.header_shot_links {
+  font-size: 11px;
+  display: block;
+  width: 100%;
+  margin-right: 12px;
+}
+
+.header_shot_links a {
+  color: #565656;
+}
+
+.advnce_srch {
+  position: absolute;
+  bottom: -15px;
+  left: -9px;
+  text-align: right;
+}
+
+.search_inpt_icon {
+  position: absolute;right: 12px;
+  color: #bf6c4a;
+}
+
+/*social media icons css*/
+
+.social_medias ul li {
+  display: inline;
+  margin: 0 6px;
+}
+
+.social_medias ul li i {
+  padding: 6px 0;
+}
+
+.social_medias .fb {
+  color: #3b5998;
+}
+
+.social_medias .tweet {
+  color: #00acee;
+}
+
+.social_medias .pintrest {
+  color: #CC2127;
+}
+
+.frgt_pswd_main,
+.advnce_srch_main {
+    position: relative;
+}
+
+.frgt_pswd_main .frgt_pswd {
+  position: absolute;
+  bottom: -15px;
+  left: 6px;
+  text-align: left;
+}
+
+
+

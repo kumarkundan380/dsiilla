@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+
+header .nav-item:last-child {
+  margin-right: 30px;
+}
+
+.search_inpt input {
+  padding: 3px 27px 3px 7px;
+}
+
+.search_inpt {
+  position: relative;
+  width: 100%;
+}
+
+/* .search_inpt_icon {
+  position: absolute;right: 12px;
+  color: #bf6c4a;
+} */
+
+/* .advnce_srch {
+  position: absolute;
+  bottom: -15px;
+  left: -9px;
+   text-align: right;
+} */
+
+.side-bar-svg {
+  fill: #4c4c4c;
+}
+
+.footer_icons {
+  fill: #bf6c4a;
+}
+
+@media screen and (max-width:1380px) {
+  .social_medias ul li {
+    display: inline;
+    margin: 0 4px;
+  }
+}
+
+@media screen and (max-width:1236px) {
+  .groupsv {
+    width: 140px !important;
+  }
+  header .social_medias ul li {
+    margin: 0 3px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .side_menu_opener {
+      display: none;
+  }
+  .hero-inner-content {
+      display: none;
+  }
+  .logo-desktop {
+      display: block;
+  }
+  .logo-responsive {
+      display: none;
+  }
+  .team_main .team_card_all
+  {
+    min-height: 295px;
+  }
+  .theme_header .navbar-nav {
+    padding-left: 0px;
+  }
+  .hero_section
+  {
+    height: 567px;
+  }
+}
+

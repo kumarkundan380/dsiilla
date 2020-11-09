@@ -1,0 +1,219 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #727272;
+    padding: 6px 10px;
+    font-size: 18px;
+    background: #f7f7f7;
+    margin: 5px;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 36px;
+    height: 36px;
+}
+
+.navbar-dark .navbar-nav .nav-item:last-child .nav-link {
+    background: transparent;
+    width: 100%;
+    color: #727272 !important
+}
+
+.navbar-dark .nav-item:last-child .nav-link h6 {
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 4px;
+}
+
+.navbar-dark .navbar-nav .nav-item:last-child .nav-link:hover {
+    color: currentcolor;
+}
+
+#userDropdown {
+    margin-top: 5px !important;
+}
+
+#userDropdown .dropdown-toggle::after {
+    position: absolute;
+    top: 50%;
+}
+
+.sidebarToggle {
+    padding: 0;
+}
+
+.sb-sidenav-toggled.sb-sidenav-hover .sb-sidenav-menu .nav .nav-link span {
+    display: block;
+}
+
+.sb-sidenav-toggled.sb-sidenav-hover #layoutSidenav #layoutSidenav_nav {
+    width: 275px;
+}
+
+.sb-nav-fixed.sb-sidenav-hover #layoutSidenav #layoutSidenav_content {
+    padding-left: 275px;
+    margin-left: 0;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_content {
+    top: 65px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffffff;
+    background: #be6c4b;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav {
+    padding-top: 66px;
+}
+
+.sb-nav-fixed .sb-topnav {
+    z-index: 1039;
+    background-color: #ffffff !important;
+    box-shadow: 0px 6px 80px -17px #888888;
+}
+
+.sb-topnav {
+    padding-left: 0;
+    height: 66px;
+    z-index: 1039;
+}
+
+.menu_small {
+    padding-left: 1rem !important;
+}
+
+.sb-topnav .navbar-brand {
+    width: 217px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+}
+
+.ris_brand_logo {
+    background: #fff;
+    text-align: center;
+}
+
+.ris_brand_logo img {
+    width: 135px;
+}
+
+.fixed-top, .sb-nav-fixed #layoutSidenav #layoutSidenav_nav, .sb-nav-fixed .sb-topnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.header_search_main input {
+    padding-left: 35px !important;
+    border-radius: 50px !important;
+}
+
+.header_search_main {
+    position: relative;
+    margin-left: 50px;
+}
+
+.header_search_main .header_search {
+    position: absolute;
+    top: 5px;
+    left: 11px;
+}
+
+.side_menu_opener {
+    font-size: 18px;
+    color: #727272;
+    margin-left: 5px;
+}
+
+.create_form_all input, .create_form_all textarea, .create_form_all select {
+    width: 100%;
+    background: #FCFCFC;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0 !important;
+    font-size: 14px;
+    color: #313131;
+    outline: none;
+    box-shadow: 0px 13px 35px -8px #00000047;
+}
+
+.header_search_main input {
+    padding-left: 35px !important;
+    border-radius: 50px !important;
+}
+
+.serch_icon{
+    position: relative !important;
+}
+
+
+
+.mainLoginInput{
+    height: 40px;
+    padding: 0px;
+    font-size: 30px;
+    margin: 5px 0;
+    border-radius: 50px !important;
+  }
+
+
+
+  
+  .mainLoginInput::-webkit-input-placeholder { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+
+  }
+  
+  .mainLoginInput::-moz-placeholder  { 
+  font-family: FontAwesome;
+  content: "\f002";
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+  }
+  
+  .mainLoginInput:-ms-input-placeholder  { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+  }
+
+
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 1px;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+
+   
+}
